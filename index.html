@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Typhoon STEM Racing Team from Alamanda K-9 College and Homestead Senior Secondary College."
+    />
+    <title>Typhoon - STEM Racing Team</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon.svg" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCG4ECVT7P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FCG4ECVT7P');
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              carbon: "#171832",
+              marine: "#171832",
+              typhoon: "#77CFE9",
+              ocean: "#1B4594",
+              graphite: "#0d1026",
+              panel: "#202247",
+              electric: "#77CFE9",
+              velocity: "#1B4594",
+              lime: "#77CFE9"
+            },
+            fontFamily: {
+              display: ["Inter", "ui-sans-serif", "system-ui"],
+              body: ["Inter", "ui-sans-serif", "system-ui"]
+            },
+            boxShadow: {
+              glow: "0 0 32px rgba(119, 207, 233, 0.28)",
+              blueglow: "0 0 38px rgba(27, 69, 148, 0.28)"
+            }
+          }
+        }
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-carbon text-white antialiased">
+    <div class="site-noise"></div>
+
+    <header class="fixed inset-x-0 top-0 z-50">
+      <nav class="mx-auto mt-3 flex max-w-7xl items-center justify-between rounded-xl border border-white/10 bg-carbon/70 px-4 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl sm:px-6">
+        <a href="#home" class="route-link brand-logo-link" aria-label="Typhoon home">
+          <img class="brand-logo" src="assets/typhoon-white-logo.svg" alt="Typhoon STEM Racing" />
+        </a>
+
+        <button
+          id="menuButton"
+          class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 text-white md:hidden"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span class="hamburger"></span>
+        </button>
+
+        <div id="navLinks" class="nav-links">
+          <a class="route-link nav-link" href="#home">Home</a>
+          <!-- <a class="route-link nav-link" href="#blog">Latest</a> -->
+          <a class="route-link nav-link" href="#about">About Us</a>
+          <a class="route-link nav-link" href="#journey">Our Story</a>
+          <a class="route-link nav-link nav-cta" href="#partners">Support Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app" class="min-h-screen"></main>
+
+    <footer class="border-t border-white/10 bg-[#171832]">
+      <div class="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.25fr_0.75fr_1fr]">
+        <div>
+          <div class="mb-5">
+            <img class="footer-logo" src="assets/typhoon-white-logo.svg" alt="Typhoon STEM Racing" />
+          </div>
+          <p class="max-w-md text-xs leading-6 text-white/40">
+            The STEM RACING Logo, STEM RACING, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trademarks of Formula One Licensing BV, a Formula 1 company. All rights reserved.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Navigate</h2>
+          <div class="grid gap-2 text-sm text-white/65">
+            <a class="route-link footer-link" href="#home">Home</a>
+            <!-- <a class="route-link footer-link" href="#blog">Latest</a> -->
+            <a class="route-link footer-link" href="#about">About Us</a>
+            <a class="route-link footer-link" href="#journey">Our Story</a>
+            <a class="route-link footer-link" href="#partners">Support Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Connect</h2>
+          <div class="mb-5 flex gap-3" aria-label="Social media links">
+            <a class="social-link" href="https://instagram.com/typhoonracing.aus" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 4.2A3.8 3.8 0 1 1 12 15.8 3.8 3.8 0 0 1 12 8.2Zm0 2A1.8 1.8 0 1 0 12 13.8 1.8 1.8 0 0 0 12 10.2ZM17.8 6.6a.9.9 0 1 1-.9.9.9.9 0 0 1 .9-.9Z"/></svg>
+            </a>
+            <a class="social-link" href="https://linkedin.com/company/typhoonracing" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 10h4v11H3V10Zm7 0h3.8v1.5h.05A4.2 4.2 0 0 1 17.6 9.5c4 0 4.4 2.7 4.4 6.1V21h-4v-4.8c0-1.2 0-2.7-1.65-2.7s-1.9 1.3-1.9 2.6V21H10V10Z"/></svg>
+            </a>
+            <!-- Add more socials later by copying one social-link anchor and changing href, aria-label, and icon. -->
+          </div>
+          <p class="mb-2 text-sm font-bold text-white/80">Samhith Alluri</p>
+          <p class="text-sm text-white/60"><a class="footer-link" href="mailto:typhoon.racing.sponsorship.aus@gmail.com">typhoon.racing.sponsorship.aus@gmail.com</a></p>
+          <p class="mt-1 text-sm text-white/60"><a class="footer-link" href="tel:+61424322444">+61 424 322 444</a></p>
+          <p class="mt-1 text-sm text-white/60">Point Cook, Melbourne, Victoria</p>
+        </div>
+      </div>
+      <div class="mx-auto max-w-7xl border-t border-white/10 px-6 py-6">
+        <p class="text-sm leading-7 text-white/55">
+          Typhoon acknowledges that our schools and wider community are based on the lands of the Bunurong and Wadawurrung Peoples, the Traditional Owners of the Country now known as Point Cook and the wider Wyndham region.
+        </p>
+        <p class="mt-4 text-sm leading-7 text-white/55">
+          We honour the enduring connection to land, waterways, culture and community held by all Aboriginal and Torres Strait Islander peoples. We pay our respects to Traditional Custodians and Elders past, present and emerging, and recognise their continuing care for Country.
+        </p>
+      </div>
+      <div class="border-t border-white/10 px-6 py-5 text-center text-xs uppercase tracking-[0.24em] text-white/35">
+        © <span id="year">2026</span> Typhoon. All rights reserved.
+      </div>
+    </footer>
+
+    <div id="articleModal" class="modal-shell hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-panel">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close article">×</button>
+        <div id="modalContent"></div>
+      </article>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
