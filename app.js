@@ -26,7 +26,7 @@ const sponsors = [
     logos: [
  //     { name: "STEM Racing Australia", logo: "assets/sponsors/STEM Racing TM_Location_Logo_RGB_Australia.svg", website: "https://www.rea.org.au" },
       { name: "Re-Engineering Foundation", logo: "assets/sponsors/REALONG.svg", website: "https://www.rea.org.au" },
-      { name: "Alamanda K-9 College", logo: "assets/sponsors/alamandalong.svg", website: "https://www.alamandacollege.vic.edu.au/" },
+      { name: "Alamanda K-9 College", logo: "assets/sponsors/alamanda.svg", website: "https://www.alamandacollege.vic.edu.au/" },
       { name: "Homestead Senior Secondary College", logo: "assets/sponsors/hssc.svg", website: "https://www.homesteadssc.vic.edu.au/" }
     ]
   },
