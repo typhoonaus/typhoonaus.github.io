@@ -1,3 +1,6 @@
+// EDIT CONTENT HERE:
+// Most website text, images, sponsors, timeline items, and GoFundMe figures are managed in this file.
+// Keep quotes, commas, and brackets in place when changing content.
 const teamMembers = [
   { name: "Samhith Alluri", role: "Project Manager", image: "" },
   { name: "Jai Roda", role: "Digital Operations", image: "" },
@@ -10,11 +13,11 @@ const goFundMeCampaign = {
   url: "https://www.gofundme.com/f/2026-stem-racing-world-finals-help-typhoon-reach-singapore",
   title: "Help Typhoon reach Singapore",
   // Update these figures manually from the GoFundMe page when needed.
-  raised: 4362,
+  raised: 4737,
   goal: 5000,
-  donations: 58,
+  donations: 67,
   overallCampaignCost: 70000,
-  lastChecked: "26 June 2026"
+  lastChecked: "7 July 2026"
 };
 
 // When adding sponsors, keep a comma between each sponsor object.
@@ -49,7 +52,7 @@ const sponsors = [
     tier: "Associate Partners",
     size: "support",
     logos: [
-//      { name: "Epson Australia", logo: "", website: "https://www.epson.com.au/" }
+//      { name: "Kwik Kopy Hoppers Crossing", logo: "", website: "https://kwikkopy.com.au/location/vic/hoppers-crossing" }
     ]
   },
   {
@@ -60,6 +63,7 @@ const sponsors = [
  //     { name: "ANCA CNC Machines", logo: "", website: "https://www.anca.com/" },
   //    { name: "Noone", logo: "", website: "https://www.noone.com.au/" },
   //    { name: "S-Trend", logo: "", website: "https://www.s-trend.com.au/" }
+  //    { name: "Trotec", logo: "", website: "https://www.troteclaser.com/en-au/" }
     ]
   }
 ];
