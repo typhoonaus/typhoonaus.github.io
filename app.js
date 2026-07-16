@@ -13,11 +13,11 @@ const goFundMeCampaign = {
   url: "https://www.gofundme.com/f/2026-stem-racing-world-finals-help-typhoon-reach-singapore",
   title: "Help Typhoon reach Singapore",
   // Update these figures manually from the GoFundMe page when needed.
-  raised: 4737,
-  goal: 5000,
-  donations: 67,
+  raised: 4910,
+  goal: 25000,
+  donations: 70,
   overallCampaignCost: 70000,
-  lastChecked: "7 July 2026"
+  lastChecked: "16 July 2026"
 };
 
 // When adding sponsors, keep a comma between each sponsor object.
@@ -44,26 +44,31 @@ const sponsors = [
     tier: "Team Partners",
     size: "featured",
     logos: [
-  //    { name: "Leap Australia", logo: "", website: "https://www.leapaust.com.au/" },
- //     { name: "Ansys", logo: "assets/sponsors/ansys-logo-yellow-skew-black-text.svg", website: "https://www.ansys.com" }
+        { name: "Leap Australia", logo: "assets/sponsors/leap.svg", website: "https://www.leapaust.com.au/" },
+        { name: "Ansys", logo: "assets/sponsors/ansys.svg", website: "https://www.ansys.com" },
+        { name: "Autodesk", logo: "assets/sponsors/autodesk.svg", website: "https://www.autodesk.com" },
+//      { name: "Epson", logo: "assets/sponsors/epson.svg", website: "https://www.epson.com.au" },
+//      { name: "Wyndham Tech School x Victoria University", logo: "assets/sponsors/vu.svg", website: "https://www.wyndhamtechschool.vic.edu.au/" }
     ]
   },
   {
     tier: "Associate Partners",
     size: "support",
     logos: [
-//      { name: "Kwik Kopy Hoppers Crossing", logo: "", website: "https://kwikkopy.com.au/location/vic/hoppers-crossing" }
+//      { name: "Kwik Kopy Hoppers Crossing", logo: "assets/sponsors/kwikkopy.svg", website: "https://kwikkopy.com.au/location/vic/hoppers-crossing" }
     ]
   },
   {
     tier: "Team Sponsors",
     size: "support",
     logos: [
- //     { name: "Clickup", logo: "", website: "https://www.clickup.com/" },
- //     { name: "ANCA CNC Machines", logo: "", website: "https://www.anca.com/" },
-  //    { name: "Noone", logo: "", website: "https://www.noone.com.au/" },
-  //    { name: "S-Trend", logo: "", website: "https://www.s-trend.com.au/" }
-  //    { name: "Trotec", logo: "", website: "https://www.troteclaser.com/en-au/" }
+//      { name: "Clickup", logo: "assets/sponsors/clickup.svg", website: "https://www.clickup.com/" },
+//      { name: "ANCA CNC Machines", logo: "assets/sponsors/anca.svg", website: "https://www.anca.com/" },
+//      { name: "Noone", logo: "assets/sponsors/noone.svg", website: "https://www.noone.com.au/" },
+//      { name: "Total Image Supplies", logo: "assets/sponsors/totalimagesupplies.svg", website: "https://totalimagesupplies.com.au/" },
+//      { name: "S-Trend", logo: "assets/sponsors/str.svg", website: "https://www.s-trend.com.au/" },
+//      { name: "Trotec", logo: "assets/sponsors/Trotec.svg", website: "https://www.troteclaser.com/en-au/" },
+//      { name: "DATTA Victoria", logo: "assets/sponsors/DATTAVIC.svg", website: "https://www.datta.vic.edu.au/" }
     ]
   }
 ];
