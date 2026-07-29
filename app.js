@@ -13,11 +13,11 @@ const goFundMeCampaign = {
   url: "https://www.gofundme.com/f/2026-stem-racing-world-finals-help-typhoon-reach-singapore",
   title: "Help Typhoon reach Singapore",
   // Update these figures manually from the GoFundMe page when needed.
-  raised: 4910,
+  raised: 6588,
   goal: 25000,
-  donations: 70,
+  donations: 85,
   overallCampaignCost: 70000,
-  lastChecked: "16 July 2026"
+  lastChecked: "30 July 2026"
 };
 
 // When adding sponsors, keep a comma between each sponsor object.
